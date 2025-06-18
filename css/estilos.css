@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: 'MIFUENTE';
+    src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/montserratalternates/MontserratAlternates-Regular.ttf);
+    font-weight: 700;
+}
+
+body {
+font-family: "Inter", sans-serif;
+margin: 0%;
+box-sizing: border-box;
+background-color: rgb(193, 193, 195);
+color: #222;
+}
+
+header,nav, footer {width: 100%;}
+
+
+footer{
+
+    background-color: #1f0d93;
+    color: rgb(225, 225, 231);
+    padding: 10px;
+    font-size: 15px;
+
+
+
+
+}
+
+header {
+
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    animation-name: aparecer;
+animation-duration: 4s;
+animation-timing-function: steps(4);
+
+}
+@keyframes aparecer {
+
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+
+
+}
+
+nav{
+
+background-color: rgb(115, 173, 253);
+padding: 8px;}
+
+
+nav a {
+
+text-decoration: none;
+color: antiquewhite;
+font-weight: 700 ;
+margin: 0 10%;
+
+}
+
+
+
+
+h1{
+
+    font-family: 'MIFUENTE';
+    font-size: 40px;
+    animation-name: aparecer;
+    animation-duration: 4s;
+    animation-timing-function: steps(4);
+
+}
+
+@keyframes aparecer {
+
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+
+
+}
+
+#grid-galeria {
+
+
+display: grid;
+grid-template-columns: repeat(2,2fr);
+gap: 10px;
+padding: 5px;
+width: 70%;
+margin: 0 auto;
+
+}
+
+img {
+
+
+    width: 80%;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    
+
+
+}
+
+img:hover {
+
+    transform: scale(1.05);
+
+
+
+}
+
+.proyecto {
+
+width: 500px;
+display:flexbox;
+background-color: white;
+border: 1px solid #1f0d93 ;
+border-radius: 10px;
+box-shadow: 0 0 10px dodgerblue;
+padding: 10px;
+transition: all 0.5s linear;
+
+
+
+
+
+}
+
+.proyecto:hover{
+
+
+
+    box-shadow:0 0 10px dodgerblue;
+
+}
+
+
+
+#Servicios {
+margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+a {
+    color: #344cba;
+    text-decoration: none;
+}
+
+
